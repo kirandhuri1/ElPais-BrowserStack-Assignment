@@ -40,7 +40,7 @@ def scrape_elpais(driver):
 
             driver.get(link)
 
-            # ⭐ wait for article load
+            #  wait for article load
             wait.until(
                 EC.presence_of_element_located((By.TAG_NAME, "article"))
             )
@@ -79,7 +79,7 @@ def scrape_elpais(driver):
             print("ENGLISH TITLE:", translated_title)
             print("CONTENT PREVIEW:", content[:400])
 
-            # ⭐ improved image extraction
+            #  improved image extraction
             image_tag = soup.select_one("figure img, picture img, article img")
 
             if image_tag:
