@@ -1,4 +1,4 @@
-# El País BrowserStack Assignment
+# ⭐ El País BrowserStack Assignment
 
 ## 1.Overview
 
