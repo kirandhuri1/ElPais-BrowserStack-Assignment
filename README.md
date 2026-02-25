@@ -1,6 +1,6 @@
-# 📰 El País BrowserStack Assignment
+# El País BrowserStack Assignment
 
-## 📌 Overview
+## 1.Overview
 
 This project demonstrates web scraping, translation, text analysis, and cross-browser automation using Selenium and BrowserStack.
 
@@ -8,20 +8,20 @@ The script visits the El País Opinion section, extracts article information, tr
 
 ---
 
-## 🚀 Features Implemented
+## 2. Features Implemented
 
-✅ Navigate to El País Opinion section (Spanish)
-✅ Extract first 5 opinion articles
-✅ Print Spanish title and article content
-✅ Translate article titles to English
-✅ Download cover images (if available)
-✅ Perform repeated word frequency analysis on translated titles
-✅ Execute cross-browser testing using BrowserStack
-✅ Run parallel sessions across desktop and mobile environments
+1) Navigate to El País Opinion section (Spanish)
+2) Extract first 5 opinion articles
+3) Print Spanish title and article content
+4) Translate article titles to English
+5) Download cover images (if available)
+6) Perform repeated word frequency analysis on translated titles
+7) Execute cross-browser testing using BrowserStack
+8) Run parallel sessions across desktop and mobile environments
 
 ---
 
-## 🛠️ Tech Stack
+## 3. Tech Stack
 
 * Python
 * Selenium WebDriver
@@ -32,7 +32,7 @@ The script visits the El País Opinion section, extracts article information, tr
 
 ---
 
-## 📂 Project Structure
+## 4. Project Structure
 
 ```
 el-pais-task/
@@ -45,7 +45,7 @@ el-pais-task/
 
 ---
 
-## ⚙️ Setup Instructions
+## 5. Setup Instructions
 
 ### 1️⃣ Install dependencies
 
@@ -74,7 +74,7 @@ python browserstack_test.py
 
 ---
 
-## 🌐 Cross-Browser Coverage
+## 6.Cross-Browser Coverage
 
 The script runs on:
 
@@ -86,7 +86,7 @@ The script runs on:
 
 ---
 
-## 📝 Notes
+## 7. Notes
 
 * Images are downloaded only if available.
 * Parallel execution depends on BrowserStack account concurrency limits.
@@ -95,19 +95,19 @@ The script runs on:
 
 ---
 
-## ✅ Assignment Requirements Coverage
+## 8. Assignment Requirements Coverage
 
-✔ Spanish scraping
-✔ Opinion article extraction
-✔ Translation of headers
-✔ Image download
-✔ Word frequency analysis
-✔ Cross-browser testing
-✔ Parallel execution
-✔ GitHub submission
+1) Spanish scraping
+2) Opinion article extraction
+3) Translation of headers
+4) Image download
+5) Word frequency analysis
+6) Cross-browser testing
+7) Parallel execution
+8) GitHub submission
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Kiran Dhuri**
