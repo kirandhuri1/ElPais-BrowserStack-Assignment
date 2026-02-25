@@ -72,9 +72,9 @@ def run_browserstack(cap):
     name = cap["bstack:options"]["sessionName"]
 
     try:
-        print(f"🚀 Starting {name}")
+        print(f" Starting {name}")
 
-        # ⭐ Selenium 4 correct capability handling
+        #  Selenium 4 correct capability handling
         options = Options()
         for key, value in cap.items():
             options.set_capability(key, value)
@@ -92,7 +92,7 @@ def run_browserstack(cap):
         )
 
     except Exception as e:
-        print(f"❌ Error in {name}:", e)
+        print(f" Error in {name}:", e)
 
         if driver:
             driver.execute_script(
@@ -103,7 +103,7 @@ def run_browserstack(cap):
     finally:
         if driver:
             driver.quit()
-            print(f"🛑 Closed {name}")
+            print(f" Closed {name}")
 
 
 if __name__ == "__main__":
