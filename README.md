@@ -36,12 +36,19 @@ The script visits the El País Opinion section, extracts article information, tr
 
 ```
 el-pais-task/
- ├── main.py
- ├── browserstack_test.py
- ├── images/
- ├── requirements.txt
- └── README.md
-```
+│
+├── main.py
+├── browserstack_test.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── images/
+│   ├── article_0.jpg
+│   ├── article_1.jpg
+│   ├── article_2.jpg
+│   ├── article_3.jpg
+│   └── article_4.jpg
 
 ---
 
