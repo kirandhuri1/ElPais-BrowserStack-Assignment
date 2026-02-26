@@ -3,8 +3,8 @@ from selenium.webdriver.chrome.options import Options
 from concurrent.futures import ThreadPoolExecutor
 from main import scrape_elpais
 
-USERNAME = "BROWSERSTACK_USERNAME"
-ACCESS_KEY = "BROWSERSTACK_USERNAME"
+USERNAME = "kirandhuri_HtgBb0"
+ACCESS_KEY = "vDxKXfvoTr4apnT1n1y2"
 
 BROWSERSTACK_URL = f"https://{USERNAME}:{ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub"
 
